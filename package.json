@@ -1,0 +1,36 @@
+{
+  "name": "@leason/js-dev-tools-chain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "js dev tools chain used for leason",
+  "author": "leason",
+  "scripts": {
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.7.2",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "prettier": "1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
