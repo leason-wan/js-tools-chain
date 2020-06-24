@@ -1,7 +1,7 @@
 # javascript tools chain
 
 ## base tools
-[macos](http://apple.com/macos)   
+[macos](http://apple.com/macos) or [windows](https://www.microsoft.com/zh-cn/windows)   
 [chrome](https://www.google.cn/chrome/index.html)  
 [nodejs](https://nodejs.org/)  
 [npmjs](https://www.npmjs.com/)  
@@ -19,30 +19,32 @@
 
 #### plugins recommend
 
-1. remote explorer
-1. docker
-1. gitlens
-1. Auto Rename Tag
-1. eslint
-1. Path Intellisense
-1. Polacode
-1. Bracket Pair Colorizer
-1. Visual Studio IntelliCode
+- gitlens
+- Auto Rename Tag
+- eslint
+- Path Intellisense
+- Bracket Pair Colorizer
+- Visual Studio IntelliCode  
+- EditorConfig for VS Code  
+- remote explorer
+- docker
+- Polacode
 
-tips: Enable the terminal `code` command: open VS Code and type CMD+SHIFT+P and type “shell command” and select “Install ‘code’ command in PATH”.
+tips: Enable the terminal `code` command with mac os: open VS Code and type CMD+SHIFT+P and type “shell command” and select “Install ‘code’ command in PATH”.
 
 ## git hooks
 [husky](https://github.com/typicode/husky#readme) + [lint-staged](https://github.com/okonet/lint-staged#readme)
 
 ## test
-TODO   
+[jest](https://jestjs.io/)   
 
 ## code style
 [eslint](https://eslint.org/) + [prettier](https://prettier.io/) + [editorconfig](https://editorconfig.org/)
 
 #### why eslint + prettier + **editorconfig**
-Prettier和Linter系列比如ESLint的区别在于Prettier是一个专注于代码格式化的工具，对代码不做质量检查。
-
+Prettier和Linter系列比如ESLint的区别在于Prettier是一个专注于代码格式化的工具，对代码不做质量检查。  
+ .editorconfig不光可以检验js文件的代码风格，还可以对.md等文件进行代码风格控制。Eslint和.editorconfig并不冲突，同时配合使用可以使代码风格更加优雅。
+  
 #### tips
 
 - eslint-loader options: { cache: true  }
