@@ -9,6 +9,7 @@
 [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) -- manage node version  
 [git](https://git-scm.com/) --- muti programer collaboration   
 [nrm](https://github.com/Pana/nrm)
+[ohmyzsh](https://ohmyz.sh/)
 - manage npm mirror
 - install from npm global, follow command `npm -i nrm` 
 - dependence version control
